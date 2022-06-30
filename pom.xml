@@ -19,4 +19,18 @@
 	<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 </properties>
   
+	<distributionManagement>
+	    <repository>
+	      <id>nexus</id>
+	      <name>Landmark Technologies Releases Nexus Repository</name>
+	      <url>http://18.144.27.82:8081/repository/Paypal_Release/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Landmark Technologies Snapshot Nexus Repository </name>
+	      <url>http://18.144.27.82:8081/repository/Paypal_Snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
 </project>
